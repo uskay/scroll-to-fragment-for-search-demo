@@ -1,0 +1,13 @@
+{
+  "name": "Scroll-To-*-For-Search",
+  "description": "An extension to automatically add scroll-to-* fragments in various Search platform's SERP links",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "activeTab", "scripting"]
+}

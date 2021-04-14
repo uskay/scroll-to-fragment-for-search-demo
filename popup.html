@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset='UTF-8' />
+<style>
+.main {
+  width: 200px;
+  margin: 20px;
+}
+.feature {
+  margin-top: 20px;
+}
+.feature-name {
+  margin-top: 10px;
+}
+.feature-toggle {
+  margin-top: 10px;
+}
+.feature-toggle button {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #999;
+  cursor: pointer;
+  border-radius: 2px;
+}
+h3 {
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="main">
+  <h3>About the extension</h3>
+  <div class="description">An extension to automatically add scroll-to-* fragments in various Search platform's SERP links</div>
+  <h3>Avaiable features</h3>
+  <div class="feature">
+    <div class="feature-name">📕 Scroll-To-Text for Search</div>
+    <div class="feature-toggle"><button id="scroll-to-text">Add Fragment</button></div>
+  </div>
+  <div class="feature">
+    <div class="feature-name">🖼️ Scroll-To-Image for Search</div>
+    <div class="feature-toggle"><button id="scroll-to-image">Add Fragment</button></div>
+  </div>
+  <h3>Search engine support</h3>
+  <ul>
+    <li>https://www.google.co.jp</li>
+    <li>https://search.yahoo.co.jp</li>
+  </ul>
+  <script src="popup.js"></script>
+</body>
+</html>
