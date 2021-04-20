@@ -9,5 +9,13 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["storage", "activeTab", "scripting"]
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [{
+      "matches": ["https://www.google.co.jp/*", "https://search.yahoo.co.jp/*"],
+      "js": ["kuromoji.js", "wordParser.js"]  
+  }], 
+  "web_accessible_resources": [{
+    "resources": ["/dict/*"],
+    "matches": ["https://www.google.co.jp/*", "https://search.yahoo.co.jp/*"]
+   }]
 }
