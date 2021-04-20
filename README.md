@@ -1,4 +1,4 @@
-# Scroll-To-Fragments-For-Search
+# Scroll-To-Fragment-For-Search
 ## What is this tool for?
 The web platform has introduced a new platform feature [scroll-to-text](https://wicg.github.io/scroll-to-text-fragment/) and also working on [its extention e.g. scroll-to-image etc](https://github.com/WICG/scroll-to-text-fragment/blob/main/EXTENSIONS.md). These features are useful for [Search engines](https://web.dev/text-fragments/#text-fragments-in-web-search) to provide a direct link to the information users are looking for. While [Google Search](https://www.seroundtable.com/google-search-adds-scroll-to-text-on-organic-product-results-30919.html#:~:text=The%20scroll%20to%20text%20feature,the%20relevant%20block%20of%20text.) has implemented this feature on its SERP, there are other Search engines that users prefer to use day-to-day. This Chrome Extension shows the example of adding scroll-to-* features to those Search platforms to demo the look and feel of it.
 
