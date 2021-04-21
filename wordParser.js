@@ -1,4 +1,4 @@
-const dicPath = chrome.runtime.getURL("/dict/");
+const dicPath = chrome.runtime.getURL("/third_party/dict/");
 const kuromojiBuilder = kuromoji.builder({ dicPath: dicPath });
 let myTokenizer = null;
 kuromojiBuilder.build((err, tokenizer) => {

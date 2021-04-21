@@ -12,10 +12,10 @@
   "permissions": ["storage", "activeTab", "scripting"],
   "content_scripts": [{
       "matches": ["https://www.google.co.jp/*", "https://search.yahoo.co.jp/*"],
-      "js": ["kuromoji.js", "wordParser.js"]  
+      "js": ["/third_party/kuromoji.js", "wordParser.js"]  
   }], 
   "web_accessible_resources": [{
-    "resources": ["/dict/*"],
+    "resources": ["/third_party/dict/*"],
     "matches": ["https://www.google.co.jp/*", "https://search.yahoo.co.jp/*"]
    }]
 }
